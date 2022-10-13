@@ -1,0 +1,26 @@
+@startuml UseCase
+left to right direction
+skinparam packageStyle rectangle
+
+
+actor "User" as U
+actor "STAR" as STAR
+actor "SNCF" as SNCF
+actor "Admin" as A
+actor "Web page" as W
+
+rectangle "Intelligo"{
+    U--(Search for a route)
+    U--(Search for a time table)
+    U--(Send feedback)
+    (Get scratch)--W
+    (Send data)<.(Get scratch): include
+    (Send data)--STAR
+    (Send data)--SNCF
+    (Search for a route)..>(Send data): include
+    (Search for a time table)..>(Send data): include
+    U<-A
+    A--(Manage server)
+    A--(Manage start and end point)
+}
+@enduml
