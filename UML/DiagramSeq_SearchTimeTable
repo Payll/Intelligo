@@ -1,0 +1,16 @@
+@startuml
+
+Actor User as U
+participant System as S
+U->U : Search for a timetable
+
+alt refresh Datas
+    loop Time interval
+        S -> S: Reload the Data 
+        S -> S: Search the timetable
+        S -> S: Send the timetable at the screen
+    end
+end
+U->U : look the screen
+
+@enduml
