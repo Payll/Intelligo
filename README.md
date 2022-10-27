@@ -9,13 +9,13 @@
 
   [![Status](https://img.shields.io/badge/status-active-success.svg)]() 
   [![GitHub Issues](https://img.shields.io/github/issues/Payll/Intelligo.svg)](https://github.com/Payll/Intelligo/issues)
-  [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/Payll/Intelligo.svg)](https://github.com/kylelobo/The-Documentation-Compendium/pulls)
+  [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/Payll/Intelligo.svg)](https://github.com/Payll/Intelligo/pull)
 
 </div>
 
 ---
 
-<p align="center"> Few lines describing your project.
+<p align="center"> Intelligent public transport display linked to a location.
     <br> 
 </p>
 
@@ -31,7 +31,20 @@
 - [Acknowledgments](#acknowledgement)
 
 ## 🧐 About <a name = "about"></a>
-Write about 1-2 paragraphs describing the purpose of your project.
+
+In our team of students, some of us live far from our school, we have an average of one and a half hours of travel time per day by public transport.
+After several years of using this type of transport, we asked ourselves the following question: How can we optimise our public transport journey from one place to another? It is from this question that our project "Intelligo" was born.
+
+**Objective:**
+
+- Each place is unique and must meet the requirements of the people.
+- To have real time data of public transport.
+- To create a meeting place.
+- To have continuous feedback from users on possible transport problems.
+- Optimise the most frequently used routes thanks to the knowledge of the city.
+
+We have designed a fixed terminal that can display in real time the information needed to meet the above objectives.
+
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
@@ -90,9 +103,12 @@ Add additional notes about how to deploy this on a live system.
 - [NodeJs](https://nodejs.org/en/) - Server Environment
 
 ## ✍️ Authors <a name = "authors"></a>
-- [@Payll](https://github.com/Payll) - Idea & Initial work
+- [@Payll](https://github.com/Payll)
+- [@RonanEtudes](https://github.com/RonanEtudes)
+- [@Ghost-hikaru](https://github.com/ghost-hikaru)
+- [@Slonev0](https://github.com/Slonev0)
 
-See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/Payll/Intelligo/contributors) who participated in this project.
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 - Hat tip to anyone whose code was used
