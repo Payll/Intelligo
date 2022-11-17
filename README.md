@@ -104,7 +104,7 @@ Add additional notes about how to deploy this on a live system.
 
 ## ✍️ Authors <a name = "authors"></a>
 - [@Payll](https://github.com/Payll)
-- [@RonanEtudes](https://github.com/RonanEtudes)
+- [@RonanEtudes](https://github.com/lumi-git)
 - [@Ghost-hikaru](https://github.com/ghost-hikaru)
 - [@Slonev0](https://github.com/Slonev0)
 
